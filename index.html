@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Turističaka Agencija</title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width,initial scale=1.0"/>
+	<link href="still/still.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet"/>
+</head>
+<body><!--početak stranice-->
+	<div id="wrapper">
+		<div id="header">			                        <!--kontakt podaci u gornjem lijevom kutu--> 
+			<p>Nazovite nas ! 091/2222-222  |  kontakt@noa.hr</p>		
+		</div>
+		<div id="menu">
+			<div id="logo">                                                               <!--logo logo-->
+				<span class="logo">NOA</span><span class="logo2">Turistička agencija</span>
+			</div>
+			<div id="linkovi">
+				<ul>
+					<span class="zeleninaslov">| </span><a href="index.html"><li>Početna</li></a><span class="linkovi">|</span>               
+					<a href="proizvodi.html"><li>Proizvodi i usluge</li></a><span class="linkovi">|</span>
+					<a href="katalog.html"><li>Katalog</li></a><span class="linkovi">|</span>
+					<a href="cijenik.html"><li>Cijenik </li></a><span class="linkovi">|</span>
+					<a href="kontakt.html"><li>Kontakt</li></a>
+				</ul>
+			</div>
+		</div>                                                                        <!--citat ispod headera-->
+		<div id="citat">
+			<p>"Uvijek biraj put koji ti izgleda najbolji, koliko god bio težak. Zahvaljujući navici ubrzo će postati lagan i ugodan."</p>
+		</div>
+		<div id="slider">
+			<!-- #region Jssor Slider Begin -->
+    <!-- Generator: Jssor Slider Maker -->
+    <!-- Source: http://www.jssor.com -->
+    <!-- This code works without jquery library. -->
+    <script src="js/jssor.slider-22.1.8.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 600);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*responsive code end*/
+        };
+    </script>
+    <style>
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('img/a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:400px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:300px;overflow:hidden;">
+            
+            <a data-u="any" href="http://www.jssor.com" style="display:none">Simple Fade Slideshow</a>
+            <div>
+                <img data-u="image" src="img/slider1.jpeg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/slider2.jpeg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/slider3.jpeg" />
+            </div>
+			<div>
+                <img data-u="image" src="img/slider5.jpeg" />
+            </div>
+			<div>
+                <img data-u="image" src="img/slider6.jpeg" />
+            </div>
+			<div>
+                <img data-u="image" src="img/slider7.jpeg" />
+            </div>
+			<div>
+                <img data-u="image" src="img/slider8.jpg" />
+            </div>
+			<div>
+                <img data-u="image" src="img/slider9.jpg" />
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora12l" style="top:0px;left:0px;width:30px;height:46px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora12r" style="top:0px;right:0px;width:30px;height:46px;" data-autocenter="2"></span>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+    <!-- #endregion Jssor Slider End -->                                                  <!--kraj slidera-->
+		</div>
+		<div id="content">
+			<h1><span class="zeleninaslov">O NAMA</span></h1>
+			<h2>Povijest agencije</h2>
+			<p><img src="images/first.jpeg"alt="worldonheand" class="slikaleft"/>Prije više od 30 godina nastala je agencija koju je osnovao njen današnji vlasnik, James Bondi, započevši sa iznajmljivanjem dviju karavana koje su se nalazile u blizini Opatije. Tako je agencija pomalo rasla sve do 1985. godine kada je vlasnik imao u zakupu 130 šatora i karavana po čitavoj Istri i Kvarneru. Nudio je ˝self-drive˝ aranžmane koristeći hotele na kupalištima. Potom je počeo primati pisma i razno razne upite i zahtjeve da organizira autobusne ture i prijevoz, i to od njegovih stalnih klijenata čija su djeca već bila odrasla. Odavde se stvorio logičan korak da se organiziraju ture. Tako je već 1986.godine organizirao prvu takvu turu u Zadar, koja je rezultirala čuvenim uspjehom i o tome se pročulo. Kako je kamping tržište počelo opadati, organizirane ture su bile u porastu te se agencija koncentrirala isključivo na ture sve od te iste godine.</p>
+			<p>Tokom dugog niza godina autobusne ture i prijevoz trajektom do naših otoka su bili baza poslovanja te se agencija postepeno počela baviti organizacijom avionskih tura te putovanjima vlakom. Trenutno agencija ima 100,000 ljudi koji svake godine putuju koristeći njene usluge na raznolikim svjetskim destinacijama. Europsko emitivno turističko tržište ima veliku konkurenciju te se „NOA“ morala istaknuti na način da su odlučili biti posebni, drugačiji od ostalih agencija. S obzirom da se većina agencija fokusira na usluge poput avionskih karata i smještaja, „NOA“ se odlučila da će fokus biti na kvaliteti Tour Managera i na raznolikosti tura koje nude kao svoje proizvode.</p> 
+			<h2>Turistički aranžmani i marketinški koncept "NOA" turističke agncije</h2>
+			<h3>Turistički aranžmani</h3> 
+			<p><img src="images/globus.jpeg"alt="mapofeurope" class="slikaleft"/>„NOA“ proizvodi ture koje se u svijetskoj terminologiji zovu Escorted Tours (praćene ture) a odredišta su sve poznate europske i svjetske destinacije. Europske ture su kombinacija tura sa razgledavanjem zanimljivosti i slobodnog vremena, te većinom traju od 5-7 dana. Na takvim turama putnici su smješteni u maksimalno tri hotela a većinom samo u dva tokom 8-dnevnog boravka u nekoj zemlji. Isto tako, lokalni vodiči na destinacijama se uzimaju samo u dva grada ako se npr. posjećuje pet gradova, te se ostatak vremena pušta putniku na volju da samostalno razgledava. Putnici su prethodno pripremljeni sa posebnim mapama koje agencija šalje Tour Manageru a on ih distribuira, sa svojim posebnim napomenama što je zanimljivo posjetiti ili gdje se može dobro ručati ili večerati. Zbog toga se i hotelska usluga na većini tura bazira na BB aranžmanu kako bi putnici uživali što više u lokalnim specijalitetima.</p> 
+			<p>Zbog dobre prodaje i raznolikosti ovakvih tura/aranžmana, te zahvaljujući dobroj reputaciji koju „NOA“ ima kod stranih partnera na receptivnim destinacijama, cijena njihovih paket aranžmana znatno je manja u usporedbi sa ostalim agencijama te predstavlja fantastičnu vrijednost za potrošen novac. Agencija je tako u mogućnosti zakupiti dodatni hotelski kapacitet po potrebi i to po vrlo kompetentnim cijenama, te je u mogućnosti zakupljivati usluge agenata na receptivnim destinacijama. Strategija agencije je da plati za sve usluge svim dobavljačima unaprijed.</p> 
+			<p><img src="images/putokaz.jpeg"alt="roadmap" class="slikaright"/>Misija „NOA“ turističke agencije je naglasak na kvaliteti dviju specifičnih usluga. Jedna su raznolikost tura koje se nude a druga su Tour Manageri koji rade za agenciju te koji dolaze iz različitih miljea, a ima ih sve skupa oko 200. Važno u ovome je trajno održati imidž i dobar ugled. Inzistiranje na kvaliteti Tour Managera i kvaliteti ture je ono što je ključ uspjeha i što ih čini različitima od ostalih agencija. Tour Manageri su prvi u osobnom kontaktu s putnikom te imaju najveći utjecaj na putnikovu percepciju usluga agencije. Nametnuto je očekivanje da se putnik mora oduševiti s Tour Managerom kao mjera njegove kvalitete.</p>
+			<h3>Marketinški koncept</h3> 
+			<p>Tajna uspjeha „NOE“ leži u marketinškoj metodi koja se u svijetu zove ˝Reader's Holidays˝ a radi se o prodaji i oglašavanju u novinama, bilo da se radi o dnevnim novinama ili uglednim tjednicima. Dugi niz godina ovo je bio jedini način oglašavanja kroz novine u kojima se u središnjem dijelu srijedom pojavljivala brošura agencije ili se pojavljuje mali oglas pokraj važnog teksta. Novine su plaćene velikim iznosom provizija za prodaju turističkih aranžmana te je ovo postao veliki i unosni posao u Velikoj Britaniji. „NOA“ radi sa raznim vrstama izdavača a pretežno sa lokalnim novinama „Novi List“ te nacionalnim novinama poput „Globusa“ ili „Turista“. Također usko surađujemo sa europskim novinama poput Times-a, Guardian-a i Telegraph-a. Isto tako radimo sa magazinima kao npr BBC Good Homes, Woman's Own i TV Times.</p>
+			<p class="citat">"Once a year go someplace you've never been before"  <span class="zeleninaslov">DALAI LAMA</span></p>
+			<p><img name="" src="images/people.jpeg"alt="happypeople" class="slikacenter"/></p>
+			<p>Prije dvije godine agencija je uspostavila niz ugovora sa selekcioniranim manjimturističkim agencijama i partnerima poput dobrotvornih društava (charities) a kao poseban odjel funkcionira u „NOI“ i odjel za privatne grupe i klubove. Jednom kada putnici odluče kupiti turistički aranžman naše agencije, automatski su uključeni u mailing listu te su potom obaviješteni o lokalnim novinama koje će se koristiti u njihovoj zoni za oglašavanje putovanja. Na taj način putnik je informiran gdje može pronaći informaciju o putovanju te rezervirati isto putem telefona, ako ne koristi Internet. Putnik ostaje na mailing listi tokom tri godine. „NOA“ vodi računa o svim putnicima koji su ponovili putovanje s ovom agencijom te je o ˝repeated customer˝ obaviješten i Tour Manager. Najčešći slučaj je da sam putnik kaže da je mu je ovo već npr. osmo putovanje sa našom agencijom i da se putem predane riječi i osobne preporuke mnogi ljudi odluče za ovu agenciju.</p>
+		</div>
+		<div id="right">
+			<h2><span class="zeleninaslov">Zanimljivosti</span></h2>
+			<h4>Hrvatski Jadran</h4>
+			<p>Hrvatski Jadran obuhvaća istočnu obalu Jadranskog mora između Prevlake i Savudrijske vale.Na Hrvatskoj jadranskoj obali se nalaze 1246 otoka od kojih je 67 naseljeno.Na hrvatskom se Jadranu nalaze tri nacionalna parka: Nacionalni park Mljet, Nacionalni park Kornati i Nacionalni park Brijuni a u neposrednoj blizini Nacionalni park Paklenica, Nacionalni park Sjeverni Velebit, Nacionalni park Risnjak i Nacionalni park Krka.</p>
+			<h4>Golden Gate Bridge</h4>
+			<p>Jedan od najpoznatijih mostova na svijetu, usprkos nazivu, nije zlatne već crvene boje. Na sajtu goldengatebridge.org možete pronaći točnu formulu i uputstvo ukoliko želite dobiti točnu nijansu crvene koja se koristi za farbanje ovog mosta. Most naziv duguje zaljevu u kojem se nalazi a ne svojoj boji.</p>
+			<h4>Australija</h4>
+			<p>Jedina država na svijetu koja je istovremeno i kontinent. Možda niste znali da Australija ima više od 10.000 preljepih plaža!</p>
+			<h4>Kip slobode</h4>
+			<p>Iako danas predstavlja čuveni američki simbol,ova gigantska statua je napravljena u Francuskoj, a do New Yorka je transportirana brodom rastavljena u 350 dijelova.</p>
+			<h4>Kineski zid</h4>
+			<p>Bez obzira na sve tvrdnje u enciklopedijama, ova grandiozna građevina, ipak, nije vidljiva sa Mjeseca, što je potvrdila i NASA.</p>
+			<h4>Ajfelov toranj</h4>
+			<p>Ovo je turistički najposjećeniji lokalitet u svijetu! Ova kula u svijetu je čuvena kao turistička atrakcija, ali za više od 600 Parižana ona predstavlja svakodnevno radno mesto.</p>
+		</div>
+		<div id="footer">
+			<p>Copyright &copy; Ivan Jeremić 2017<br>"Seminarski rad za POU Algebra-Web dizajn".</p>
+		</div>
+	</div>
+</body>
+</html>
